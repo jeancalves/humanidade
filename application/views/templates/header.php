@@ -34,7 +34,7 @@
 							<ul class="details">
 								<li><i class="icon-map-marker"> </i> Belo Horizonte, MG - Brasil</li>
 								<!-- <li><i class="icon-mobile-phone"> </i> +55 31 </li> -->
-								<!-- <li><i class="icon-envelope-alt"> </i> maishumanidade@gmail.com</li>-->
+								<li><i class="icon-envelope-alt"> </i><a href="mailto:maishumanidade@gmail.com">maishumanidade@gmail.com</a> </li>
 							</ul>
 						</article>
 						<article class="span4 offset2"> 		
@@ -85,18 +85,17 @@
 									
 								  </li>
 			 
-								  <li class="dropdown"> <a class="dropdown-toggle" href=""> Eventos de caridade	<b class="caret"></b> </a>
+								  <!--<li class="dropdown"> <a class="dropdown-toggle" href=""> Eventos de caridade	<b class="caret"></b> </a>
 									<ul class="dropdown-menu">
 										<li><a href="">Detalhes do Evento</a></li>
 										<li><a href="">Calendário</a></li>
 										<li><a href="">Local do evento</a></li>
 									</ul>
-								  </li>
+								  </li>-->
 			 
 								  <li class="dropdown"> <a class="dropdown-toggle" href="" >  Instituição de caridade	<b class="caret"></b> </a>
 									<ul class="dropdown-menu">
 										<li><a href="">Lista de Instituições</a></li>
-										<li><a href="">Detalhes da Instituição</a></li>
 										<li><a href="">Doação </a></li>
 									</ul>
 								  </li>
@@ -113,7 +112,7 @@
 								  <li class="dropdown"> <a class="dropdown-toggle" href=""> Cadastre-se	<b class="caret"></b> </a>
 									<ul class="dropdown-menu" >
 										<li><a href="pessoafisica.html">Doador</a></li>
-										<li><a href="pessoajuridica.html">Donatário</a></li>
+										<li><a href=<?php echo base_url()."donatario/cadastro"?>>Donatário</a></li>
 										
 									</ul>
 								  </li>
@@ -126,9 +125,9 @@
 											<input style="float: left; margin-right: 10px;" type="checkbox" name="remember-me" id="remember-me" value="1">
 											<label class="string optional" for="user_remember_me"> Lembre-me</label>
 											<input class="btn btn-primary btn-block" type="submit" id="sign-in" value="Entrar">
-											<label style="text-align:center;margin-top:5px">ou</label>
+											<!--<label style="text-align:center;margin-top:5px">ou</label>
 			                                <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Entre com uma conta do facebook">
-											<input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Entre com uma conta do google">
+											<input class="btn btn-primary btn-block" type="button" id="sign-in-twitter" value="Entre com uma conta do google">-->
 										</form>
 									</div>
 								</li>
