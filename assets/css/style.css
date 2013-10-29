@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
-@import url('/assets/css/prettyPhoto.css');
-@import url('/assets/css/social.css'); 
+@import url('prettyPhoto.css');
+@import url('social.css'); 
 /** Table Of Content 
 
 	- Getting the new tags to behave	Line 51 - 79
@@ -982,4 +982,14 @@ ul.the-icons{ margin:0;}
     .form-pesquisa{
     	margin-top: 35px;
     	margin-right: 100px;
+    }
+    .group-two .span4{
+    	width: 315px;
+    	margin-left: 0;
+    }
+    .control-label{
+    	font-size: 16px;
+    }
+    .control-group .span2{
+    	margin-left: 0;
     }

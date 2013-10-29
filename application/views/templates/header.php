@@ -3,25 +3,26 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>Mais Humanidade </title>
-	<!--[if lt IE 9]><script src=<?php echo base_url()."assets/js/html5shiv.js"?> ></script><![endif]-->
-<!--[if lt IE 9]><script src=<?php echo base_url()."assets/js/mq.js"?>></script><![endif]-->
+	<!--[if lt IE 9]><script src=<?php echo '"'.base_url()."assets/js/html5shiv.js".'"' ?> ></script><![endif]-->
+	<!--[if lt IE 9]><script src=<?php echo '"'.base_url()."assets/js/mq.js".'"' ?>></script><![endif]-->
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<meta name="viewport" content="width=device-width">
 	<!-- Css Files Start -->
-	<link href=<?php echo base_url()."assets/css/skins/orange.css"?> rel="stylesheet" type="text/css" /><!-- All css -->
-	<link href=<?php echo base_url()."assets/css/style.css"?> rel="stylesheet" type="text/css" /><!-- All css -->
-	<link href=<?php echo base_url()."assets/css/bootstrap.css"?> rel="stylesheet" type="text/css" /><!-- Bootstrap Css -->
+	<link href=<?php echo '"'.base_url()."assets/css/skins/orange.css".'"' ?> rel="stylesheet" type="text/css" /><!-- All css -->
+	<link href=<?php echo '"'.base_url()."assets/css/style.css".'"' ?> rel="stylesheet" type="text/css" /><!-- All css -->
+	<link href=<?php echo '"'.base_url()."assets/css/bootstrap.css".'"' ?> rel="stylesheet" type="text/css" /><!-- Bootstrap Css -->
 
 	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/customIE.css" /><![endif]-->
-	<link href=<?php echo base_url()."assets/css/font-awesome.css"?> rel="stylesheet" type="text/css" /><!-- Font Awesome Css -->
-	<link href=<?php echo base_url()."assets/css/font-awesome-ie7.css"?> rel="stylesheet" type="text/css" /><!-- Font Awesome iE7 Css -->
+	<link href=<?php echo '"'.base_url()."assets/css/font-awesome.css".'"' ?> rel="stylesheet" type="text/css" /><!-- Font Awesome Css -->
+	<link href=<?php echo '"'.base_url()."assets/css/font-awesome-ie7.css".'"' ?> rel="stylesheet" type="text/css" /><!-- Font Awesome iE7 Css -->
 
 	<!-- Css Files End -->
 	<!-- Social Icons no JS -->
 	<noscript><link rel="stylesheet" type="text/css" href=<?php echo base_url()."assets/css/nj.css"?> /></noscript>
+	<script src=<?php echo '"'.base_url()."assets/plugins/jquery-2.0.3.min.js"?> type="text/javascript" ></script><!-- Jquery -->
 </head>
 <body>
 

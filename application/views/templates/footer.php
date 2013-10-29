@@ -27,6 +27,7 @@
 		</footer> <!-- footer mtp -->
 
 		<!-- JS Files Start -->
+		
 		<script type="text/javascript" src=<?php echo base_url()."assets/js/lib-1-9-1.js" ?> ></script><!-- lib Js -->
 		<script type="text/javascript" src=<?php echo base_url()."assets/js/lib-1-7-1.js" ?> ></script><!-- lib Js -->
 		<script type="text/javascript" src=<?php echo base_url()."assets/js/modernizr.js" ?> ></script><!-- Modernizr -->
@@ -39,7 +40,8 @@
 		<script type="text/javascript" src=<?php echo base_url()."assets/js/prettyPhoto.js"?> ></script><!-- Pretty Photo -->
 		<script type="text/javascript" src=<?php echo base_url()."assets/js/social.js"?> ></script><!-- Social Media Hover Effect -->
 		<script type="text/javascript" src=<?php echo base_url()."assets/js/countdown.js"?> ></script><!-- Event Counter -->
-
+		<script type="text/javascript" src=<?php echo base_url()."assets/js/handlebars-1.0.0.js"?> ></script><!-- Handlebar -->
+		<script type="text/javascript" src=<?php echo base_url()."assets/js/geral.js"?> ></script><!-- Geral -->
 		<script type="text/javascript" src=<?php echo base_url()."assets/js/custom.js"?> ></script><!-- Custom / Functions -->
 		<!--[if IE 8]>
 		     <script src="js/ie8_fix_maxwidth.js" type="text/javascript"></script>
